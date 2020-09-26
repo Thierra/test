@@ -1,0 +1,131 @@
+h1{
+	background-color: white;
+  text-align: center;
+	padding: 0px;
+	color: #0066cc;
+	font-family: Rage Italic;
+  margin: 0;
+  font-size: 400%;
+
+
+}
+ul {
+  list-style-type: none;
+  margin: 1px;
+  margin-bottom: 20px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px; 
+
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+ ul {
+  list-style-type: none;
+  margin-top: -23px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Verdana;
+
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0066cc;
+}
+
+.box{
+	background-color: #0066cc;
+	width: 400px; height: 300px;
+	margin-left: 50px;
+	color: white;
+	font-family: Century Gothic;
+	border-radius: 8px;
+	text-align: center;
+	padding: 20px;
+  position: absolute;
+}
+.fenoina{
+	background-color: white;
+	width: 400px; height: 350px; margin-left: 50px;
+	color: black; font-family: Century Gothic;
+	border-radius: 8px; padding: 20px;
+}
+.phone{
+	width: 50px;
+}
+
+border-radius: 8px;
+p{ text-align: center;
+	font-size: 200% ;
+}
+
+body{
+	background-color: #d6d6c2;
+  margin: 0px; 
+
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 35px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+.fenoina{
+	margin-top: 40px;
+  margin-left: 50px;
+}
+
+
+.Reseaux{
+    text-align: center;
+    font-family: Arial;
+
+}
